@@ -42,7 +42,7 @@ export interface OAuthLoginStartResponse {
 }
 
 export function buildOAuthLoginStartURL(request: OAuthLoginStart): string {
-  const apiBase = (import.meta.env.VITE_API_BASE_URL as string | undefined) || '/api/v1'
+  const apiBase = (import.meta.env.VITE_API_BASE_URL as string | undefined) || `${import.meta.env.BASE_URL}api/v1`
   const normalized = apiBase.replace(/\/$/, '')
   const query = new URLSearchParams(request.params).toString()
   const path = `${normalized}/auth/oauth/${request.provider}/start`

@@ -84,6 +84,7 @@ export default defineConfig(({ mode }) => {
   const devPort = Number(env.VITE_DEV_PORT || 3000)
 
   return {
+    base: '/sub2api/',
     plugins: [
       vue(),
       checker({
@@ -158,17 +159,26 @@ export default defineConfig(({ mode }) => {
       host: '0.0.0.0',
       port: devPort,
       proxy: {
-        '/api': {
+        '/sub2api/health': {
           target: backendUrl,
-          changeOrigin: true
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/sub2api(?=\/)/, '')
         },
-        '/v1': {
+        '/sub2api/api': {
           target: backendUrl,
-          changeOrigin: true
+          ws: true,
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/sub2api(?=\/)/, '')
         },
-        '/setup': {
+        '/sub2api/v1': {
           target: backendUrl,
-          changeOrigin: true
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/sub2api(?=\/)/, '')
+        },
+        '/sub2api/setup': {
+          target: backendUrl,
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/sub2api(?=\/)/, '')
         }
       }
     }

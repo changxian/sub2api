@@ -879,7 +879,7 @@ async function checkServiceAndReload() {
 
   for (let i = 0; i < maxRetries; i++) {
     try {
-      const response = await fetch('/health', {
+      const response = await fetch(`${import.meta.env.BASE_URL}health`, {
         method: 'GET',
         cache: 'no-cache'
       })

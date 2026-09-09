@@ -132,7 +132,7 @@ apiClient.interceptors.response.use(
         }
 
         if (window.location.pathname.startsWith('/admin/ops')) {
-          window.location.href = '/admin/settings'
+          window.location.href = `${import.meta.env.BASE_URL}admin/settings`
         }
 
         return Promise.reject({
@@ -208,7 +208,7 @@ apiClient.interceptors.response.use(
             sessionStorage.setItem('auth_expired', '1')
 
             if (!window.location.pathname.includes('/login')) {
-              window.location.href = '/login'
+              window.location.href = `${import.meta.env.BASE_URL}login`
             }
 
             return Promise.reject({
@@ -239,7 +239,7 @@ apiClient.interceptors.response.use(
         }
         // Only redirect if not already on login page
         if (!window.location.pathname.includes('/login')) {
-          window.location.href = '/login'
+          window.location.href = `${import.meta.env.BASE_URL}login`
         }
       }
 
