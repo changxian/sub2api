@@ -12,9 +12,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Wei-Shaw/sub2api/internal/config"
-	infraerrors "github.com/Wei-Shaw/sub2api/internal/pkg/errors"
-	"github.com/Wei-Shaw/sub2api/internal/service"
+	"github.com/changxian/sub2api/internal/config"
+	infraerrors "github.com/changxian/sub2api/internal/pkg/errors"
+	"github.com/changxian/sub2api/internal/service"
 	"github.com/redis/go-redis/v9"
 )
 

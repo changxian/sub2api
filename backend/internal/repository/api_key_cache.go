@@ -8,7 +8,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/Wei-Shaw/sub2api/internal/service"
+	"github.com/changxian/sub2api/internal/service"
 	"github.com/redis/go-redis/v9"
 )
 

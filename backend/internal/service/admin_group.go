@@ -8,16 +8,16 @@ import (
 	"strings"
 	"time"
 
-	dbent "github.com/Wei-Shaw/sub2api/ent"
-	"github.com/Wei-Shaw/sub2api/internal/config"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/antigravity"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/claude"
-	infraerrors "github.com/Wei-Shaw/sub2api/internal/pkg/errors"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/geminicli"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/logger"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/openai"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/pagination"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/xai"
+	dbent "github.com/changxian/sub2api/ent"
+	"github.com/changxian/sub2api/internal/config"
+	"github.com/changxian/sub2api/internal/pkg/antigravity"
+	"github.com/changxian/sub2api/internal/pkg/claude"
+	infraerrors "github.com/changxian/sub2api/internal/pkg/errors"
+	"github.com/changxian/sub2api/internal/pkg/geminicli"
+	"github.com/changxian/sub2api/internal/pkg/logger"
+	"github.com/changxian/sub2api/internal/pkg/openai"
+	"github.com/changxian/sub2api/internal/pkg/pagination"
+	"github.com/changxian/sub2api/internal/pkg/xai"
 )
 
 // Group management implementations

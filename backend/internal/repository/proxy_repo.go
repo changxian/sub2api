@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	dbent "github.com/Wei-Shaw/sub2api/ent"
-	"github.com/Wei-Shaw/sub2api/ent/proxy"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/logger"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/pagination"
-	"github.com/Wei-Shaw/sub2api/internal/service"
+	dbent "github.com/changxian/sub2api/ent"
+	"github.com/changxian/sub2api/ent/proxy"
+	"github.com/changxian/sub2api/internal/pkg/logger"
+	"github.com/changxian/sub2api/internal/pkg/pagination"
+	"github.com/changxian/sub2api/internal/service"
 
 	entsql "entgo.io/ent/dialect/sql"
 )

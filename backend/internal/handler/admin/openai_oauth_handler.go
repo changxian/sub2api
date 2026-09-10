@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Wei-Shaw/sub2api/internal/handler/dto"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/openai"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/response"
-	"github.com/Wei-Shaw/sub2api/internal/service"
+	"github.com/changxian/sub2api/internal/handler/dto"
+	"github.com/changxian/sub2api/internal/pkg/openai"
+	"github.com/changxian/sub2api/internal/pkg/response"
+	"github.com/changxian/sub2api/internal/service"
 
 	"github.com/gin-gonic/gin"
 )

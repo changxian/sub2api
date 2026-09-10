@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Wei-Shaw/sub2api/internal/config"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/ctxkey"
+	"github.com/changxian/sub2api/internal/config"
+	"github.com/changxian/sub2api/internal/pkg/ctxkey"
 	"github.com/stretchr/testify/require"
 )
 

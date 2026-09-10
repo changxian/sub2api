@@ -11,8 +11,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/Wei-Shaw/sub2api/internal/config"
-	infraerrors "github.com/Wei-Shaw/sub2api/internal/pkg/errors"
+	"github.com/changxian/sub2api/internal/config"
+	infraerrors "github.com/changxian/sub2api/internal/pkg/errors"
 	"github.com/stretchr/testify/require"
 )
 

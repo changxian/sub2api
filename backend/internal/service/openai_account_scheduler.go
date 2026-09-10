@@ -15,7 +15,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Wei-Shaw/sub2api/internal/config"
+	"github.com/changxian/sub2api/internal/config"
 	"golang.org/x/sync/singleflight"
 )
 

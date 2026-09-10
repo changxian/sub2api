@@ -5,9 +5,9 @@ package repository
 import (
 	"time"
 
-	"github.com/Wei-Shaw/sub2api/internal/pkg/pagination"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/usagestats"
-	"github.com/Wei-Shaw/sub2api/internal/service"
+	"github.com/changxian/sub2api/internal/pkg/pagination"
+	"github.com/changxian/sub2api/internal/pkg/usagestats"
+	"github.com/changxian/sub2api/internal/service"
 	"github.com/google/uuid"
 )
 

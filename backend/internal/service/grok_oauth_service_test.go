@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Wei-Shaw/sub2api/internal/config"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/xai"
+	"github.com/changxian/sub2api/internal/config"
+	"github.com/changxian/sub2api/internal/pkg/xai"
 	"github.com/stretchr/testify/require"
 )
 

@@ -8,8 +8,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/Wei-Shaw/sub2api/internal/pkg/ctxkey"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/logger"
+	"github.com/changxian/sub2api/internal/pkg/ctxkey"
+	"github.com/changxian/sub2api/internal/pkg/logger"
 	"github.com/gin-gonic/gin"
 )
 

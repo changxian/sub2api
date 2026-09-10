@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Wei-Shaw/sub2api/internal/pkg/logger"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/timezone"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/usagestats"
-	"github.com/Wei-Shaw/sub2api/internal/service"
+	"github.com/changxian/sub2api/internal/pkg/logger"
+	"github.com/changxian/sub2api/internal/pkg/timezone"
+	"github.com/changxian/sub2api/internal/pkg/usagestats"
+	"github.com/changxian/sub2api/internal/service"
 	"github.com/lib/pq"
 )
 

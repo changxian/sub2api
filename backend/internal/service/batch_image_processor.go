@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	infraerrors "github.com/Wei-Shaw/sub2api/internal/pkg/errors"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/logger"
+	infraerrors "github.com/changxian/sub2api/internal/pkg/errors"
+	"github.com/changxian/sub2api/internal/pkg/logger"
 	"go.uber.org/zap"
 )
 

@@ -3,9 +3,9 @@ package admin
 import (
 	"log/slog"
 
-	"github.com/Wei-Shaw/sub2api/internal/handler/dto"
-	"github.com/Wei-Shaw/sub2api/internal/server/middleware"
-	"github.com/Wei-Shaw/sub2api/internal/service"
+	"github.com/changxian/sub2api/internal/handler/dto"
+	"github.com/changxian/sub2api/internal/server/middleware"
+	"github.com/changxian/sub2api/internal/service"
 
 	"github.com/gin-gonic/gin"
 )

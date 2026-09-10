@@ -7,7 +7,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/Wei-Shaw/sub2api/internal/pkg/openai"
+	"github.com/changxian/sub2api/internal/pkg/openai"
 	"github.com/google/uuid"
 )
 

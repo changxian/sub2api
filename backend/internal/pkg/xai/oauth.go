@@ -15,9 +15,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Wei-Shaw/sub2api/internal/pkg/redissession"
-	"github.com/Wei-Shaw/sub2api/internal/util/logredact"
-	"github.com/Wei-Shaw/sub2api/internal/util/urlvalidator"
+	"github.com/changxian/sub2api/internal/pkg/redissession"
+	"github.com/changxian/sub2api/internal/util/logredact"
+	"github.com/changxian/sub2api/internal/util/urlvalidator"
 	"github.com/redis/go-redis/v9"
 )
 

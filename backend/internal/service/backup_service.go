@@ -20,9 +20,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/robfig/cron/v3"
 
-	"github.com/Wei-Shaw/sub2api/internal/config"
-	infraerrors "github.com/Wei-Shaw/sub2api/internal/pkg/errors"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/logger"
+	"github.com/changxian/sub2api/internal/config"
+	infraerrors "github.com/changxian/sub2api/internal/pkg/errors"
+	"github.com/changxian/sub2api/internal/pkg/logger"
 )
 
 const (
